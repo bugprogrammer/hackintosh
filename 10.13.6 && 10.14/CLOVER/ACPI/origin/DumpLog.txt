@@ -1,0 +1,195 @@
+18:540  16:462  Found BIOS RSDP at F0140
+18:540  0:000  Printing ACPI tables from RSDP F0140 ...
+18:540  0:000   F0140: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+18:540  0:000    (Xsdt: 8FFB4188, Rsdt: 8FFB40C4)
+18:540  0:000    8FFB4188: 'XSDT', 'TP-R0S', Rev: 1, Len: 276
+18:540  0:000    8FFB40C4: 'RSDT', 'TP-R0S', Rev: 1, Len: 156
+18:540  0:000    Tables in Xsdt: 30
+18:540  0:000    0. 8FFEF000: 'FACP', 'TP-R0S', Rev: 5, Len: 244
+18:540  0:000        (Dsdt: 8FFC4000, Facs: 8FF3D000, XDsdt: 8FFC4000, XFacs: 0)
+18:540  0:000        8FFC4000: 'DSDT', 'SKL', Rev: 2, Len: 158082
+18:545  0:004        8FF3D000: 'FACS', Ver: 2, Len: 64
+18:545  0:000    1. 8FFF7000: 'SSDT', 'DptfTabl', Rev: 2, Len: 24331
+18:545  0:000    2. 8FFF6000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+18:545  0:000    3. 8FFF5000: 'TPM2', 'TP-R0S', Rev: 3, Len: 52
+18:545  0:000    4. 8FF53000: 'UEFI', 'TP-R0S', Rev: 1, Len: 66
+18:545  0:000    5. 8FFF1000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12451
+18:545  0:000    6. 8FFF0000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+18:545  0:000    7. 8FFEE000: 'HPET', 'TP-R0S', Rev: 1, Len: 56
+18:545  0:000    8. 8FFED000: 'APIC', 'TP-R0S', Rev: 3, Len: 300
+18:545  0:000    9. 8FFEC000: 'MCFG', 'TP-R0S', Rev: 1, Len: 60
+18:545  0:000    10. 8FFEB000: 'ECDT', 'TP-R0S', Rev: 1, Len: 83
+18:545  0:000    11. 8FFC2000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7186
+18:545  0:000    12. 8FFC0000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5804
+18:545  0:000    13. 8FFBF000: 'BOOT', 'TP-R0S', Rev: 1, Len: 40
+18:545  0:000    14. 8FFBE000: 'BATB', 'TP-R0S', Rev: 2, Len: 74
+18:545  0:000    15. 8FFBC000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+18:545  0:000    16. 8FFBB000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+18:545  0:000    17. 8FFB9000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 4406
+18:545  0:000    18. 8FFB8000: 'LPIT', 'TP-R0S', Rev: 1, Len: 148
+18:545  0:000    19. 8FFB7000: 'WSMT', 'TP-R0S', Rev: 1, Len: 40
+18:545  0:000    20. 8FFB5000: 'SSDT', 'RVPRRtd3', Rev: 2, Len: 5400
+18:545  0:000    21. 8FFFD000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+18:545  0:000    22. 8FFB3000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237
+18:545  0:000    23. 8FFB2000: 'DBGP', 'TP-R0S', Rev: 1, Len: 52
+18:545  0:000    24. 8FFB1000: 'DBG2', 'TP-R0S', Rev: 0, Len: 84
+18:545  0:000    25. 8FFB0000: 'MSDM', 'TP-R0S', Rev: 3, Len: 85
+18:545  0:000    26. 8FFAF000: 'DMAR', 'TP-R0S', Rev: 1, Len: 168
+18:545  0:000    27. 8FFAE000: 'ASF!', 'TP-R0S', Rev: 32, Len: 160
+18:545  0:000    28. 8FFAD000: 'FPDT', 'TP-R0S', Rev: 1, Len: 68
+18:545  0:000    29. 8FF3A000: 'UEFI', 'TP-R0S', Rev: 1, Len: 318
+18:545  0:000    Tables in Rsdt: 30
+18:545  0:000    0. 8FFEF000: 'FACP', 'TP-R0S', Rev: 5, Len: 244
+18:545  0:000        (Dsdt: 8FFC4000, Facs: 8FF3D000, XDsdt: 8FFC4000, XFacs: 0)
+18:545  0:000        8FFC4000: 'DSDT', 'SKL', Rev: 2, Len: 158082
+18:549  0:004        8FF3D000: 'FACS', Ver: 2, Len: 64
+18:549  0:000    1. 8FFF7000: 'SSDT', 'DptfTabl', Rev: 2, Len: 24331
+18:549  0:000    2. 8FFF6000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+18:549  0:000    3. 8FFF5000: 'TPM2', 'TP-R0S', Rev: 3, Len: 52
+18:549  0:000    4. 8FF53000: 'UEFI', 'TP-R0S', Rev: 1, Len: 66
+18:549  0:000    5. 8FFF1000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12451
+18:549  0:000    6. 8FFF0000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+18:549  0:000    7. 8FFEE000: 'HPET', 'TP-R0S', Rev: 1, Len: 56
+18:549  0:000    8. 8FFED000: 'APIC', 'TP-R0S', Rev: 3, Len: 300
+18:549  0:000    9. 8FFEC000: 'MCFG', 'TP-R0S', Rev: 1, Len: 60
+18:549  0:000    10. 8FFEB000: 'ECDT', 'TP-R0S', Rev: 1, Len: 83
+18:549  0:000    11. 8FFC2000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7186
+18:549  0:000    12. 8FFC0000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5804
+18:549  0:000    13. 8FFBF000: 'BOOT', 'TP-R0S', Rev: 1, Len: 40
+18:549  0:000    14. 8FFBE000: 'BATB', 'TP-R0S', Rev: 2, Len: 74
+18:549  0:000    15. 8FFBC000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+18:549  0:000    16. 8FFBB000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+18:549  0:000    17. 8FFB9000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 4406
+18:549  0:000    18. 8FFB8000: 'LPIT', 'TP-R0S', Rev: 1, Len: 148
+18:549  0:000    19. 8FFB7000: 'WSMT', 'TP-R0S', Rev: 1, Len: 40
+18:549  0:000    20. 8FFB5000: 'SSDT', 'RVPRRtd3', Rev: 2, Len: 5400
+18:549  0:000    21. 8FFFD000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+18:549  0:000    22. 8FFB3000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237
+18:549  0:000    23. 8FFB2000: 'DBGP', 'TP-R0S', Rev: 1, Len: 52
+18:549  0:000    24. 8FFB1000: 'DBG2', 'TP-R0S', Rev: 0, Len: 84
+18:549  0:000    25. 8FFB0000: 'MSDM', 'TP-R0S', Rev: 3, Len: 85
+18:549  0:000    26. 8FFAF000: 'DMAR', 'TP-R0S', Rev: 1, Len: 168
+18:549  0:000    27. 8FFAE000: 'ASF!', 'TP-R0S', Rev: 32, Len: 160
+18:549  0:000    28. 8FFAD000: 'FPDT', 'TP-R0S', Rev: 1, Len: 68
+18:549  0:000    29. 8FF3A000: 'UEFI', 'TP-R0S', Rev: 1, Len: 318
+18:549  0:000  Found UEFI Acpi 2.0 RSDP at 8FFFE014
+18:549  0:000  Saving ACPI tables from RSDP 8FFFE014 to EFI\CLOVER\ACPI\origin ...
+18:549  0:000   8FFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+19:677  1:127    (Xsdt: 8FFB4188, Rsdt: 8FFB40C4)
+19:677  0:000    8FFB4188: 'XSDT', 'TP-R0S', Rev: 1, Len: 276 -> XSDT.aml
+19:896  0:219    8FFB40C4: 'RSDT', 'TP-R0S', Rev: 1, Len: 156 -> RSDT.aml
+20:142  0:246    Tables in Xsdt: 30
+20:142  0:000    0. 8FFEF000: 'FACP', 'TP-R0S', Rev: 5, Len: 244 -> FACP.aml
+20:381  0:238        (Dsdt: 8FFC4000, Facs: 8FF3D000, XDsdt: 8FFC4000, XFacs: 0)
+20:381  0:000        8FFC4000: 'DSDT', 'SKL', Rev: 2, Len: 158082 -> DSDT.aml
+27:881  7:499        8FF3D000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+29:756  1:875    1. 8FFF7000: 'SSDT', 'DptfTabl', Rev: 2, Len: 24331 -> SSDT-0-DptfTabl.aml
+32:639  2:883    2. 8FFF6000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987 -> SSDT-1-Tpm2Tabl.aml
+33:793  1:153    3. 8FFF5000: 'TPM2', 'TP-R0S', Rev: 3, Len: 52 -> TPM2.aml
+34:886  1:092    4. 8FF53000: 'UEFI', 'TP-R0S', Rev: 1, Len: 66 -> UEFI.aml
+35:145  0:258    5. 8FFF1000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12451 -> SSDT-2-SaSsdt.aml
+35:398  0:253    6. 8FFF0000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478 -> SSDT-3-PerfTune.aml
+35:657  0:258    7. 8FFEE000: 'HPET', 'TP-R0S', Rev: 1, Len: 56 -> HPET.aml
+35:866  0:208    8. 8FFED000: 'APIC', 'TP-R0S', Rev: 3, Len: 300 -> APIC.aml
+36:036  0:169    9. 8FFEC000: 'MCFG', 'TP-R0S', Rev: 1, Len: 60 -> MCFG.aml
+36:185  0:148    10. 8FFEB000: 'ECDT', 'TP-R0S', Rev: 1, Len: 83 -> ECDT.aml
+36:354  0:169    11. 8FFC2000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7186 -> SSDT-4-RVP7Rtd3.aml
+36:568  0:213    12. 8FFC0000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5804 -> SSDT-5-ProjSsdt.aml
+36:730  0:162    13. 8FFBF000: 'BOOT', 'TP-R0S', Rev: 1, Len: 40 -> BOOT.aml
+36:873  0:142    14. 8FFBE000: 'BATB', 'TP-R0S', Rev: 2, Len: 74 -> BATB.aml
+37:042  0:169    15. 8FFBC000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062 -> SSDT-6-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+37:191  0:148        * 89E77018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 2298  53 53 44 54 FA 08 00 00 02 E6 50 6D 52 65 66 00 Internal length = 2298 -> SSDT-x6_0-Cpu0Ist.aml
+37:361  0:169        * 8FEB3018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 2A 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x6_1-ApIst.aml
+37:511  0:150        * 8FEB2018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 11 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x6_2-Cpu0Cst.aml
+37:766  0:254        * 8FF2B718: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 93 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x6_3-ApCst.aml
+37:915  0:149        * 8FF2BB18: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 7D 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x6_4-Cpu0Hwp.aml
+38:100  0:184        * 8FEB2698: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 80 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x6_5-ApHwp.aml
+38:242  0:142        * 8FF2B098: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 85 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x6_6-HwpLvt.aml
+38:404  0:162  
+38:404  0:000    16. 8FFBB000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389 -> SSDT-7-CtdpB.aml
+38:590  0:185    17. 8FFB9000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 4406 -> SSDT-8-UsbCTabl.aml
+38:755  0:164    18. 8FFB8000: 'LPIT', 'TP-R0S', Rev: 1, Len: 148 -> LPIT.aml
+38:906  0:150    19. 8FFB7000: 'WSMT', 'TP-R0S', Rev: 1, Len: 40 -> WSMT.aml
+39:078  0:172    20. 8FFB5000: 'SSDT', 'RVPRRtd3', Rev: 2, Len: 5400 -> SSDT-9-RVPRRtd3.aml
+39:272  0:194    21. 8FFFD000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321 -> SSDT-10-HdaDsp.aml
+39:475  0:202    22. 8FFB3000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237 -> SSDT-11-TbtTypeC.aml
+39:623  0:148    23. 8FFB2000: 'DBGP', 'TP-R0S', Rev: 1, Len: 52 -> DBGP.aml
+39:829  0:206    24. 8FFB1000: 'DBG2', 'TP-R0S', Rev: 0, Len: 84 -> DBG2.aml
+39:972  0:142    25. 8FFB0000: 'MSDM', 'TP-R0S', Rev: 3, Len: 85 -> MSDM.aml
+40:202  0:230    26. 8FFAF000: 'DMAR', 'TP-R0S', Rev: 1, Len: 168 -> DMAR.aml
+40:385  0:182    27. 8FFAE000: 'ASF!', 'TP-R0S', Rev: 32, Len: 160 -> ASF!.aml
+40:548  0:162    28. 8FFAD000: 'FPDT', 'TP-R0S', Rev: 1, Len: 68 -> FPDT.aml
+40:696  0:148    29. 8FF3A000: 'UEFI', 'TP-R0S', Rev: 1, Len: 318 -> UEFI.aml
+40:989  0:292    Tables in Rsdt: 30
+40:989  0:000    0. 8FFEF000: 'FACP', 'TP-R0S', Rev: 5, Len: 244
+40:989  0:000        (Dsdt: 8FFC4000, Facs: 8FF3D000, XDsdt: 8FFC4000, XFacs: 0)
+40:989  0:000        8FFC4000: 'DSDT', 'SKL', Rev: 2, Len: 158082
+40:993  0:004        8FF3D000: 'FACS', Ver: 2, Len: 64
+40:993  0:000    1. 8FFF7000: 'SSDT', 'DptfTabl', Rev: 2, Len: 24331
+40:993  0:000    2. 8FFF6000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+40:993  0:000    3. 8FFF5000: 'TPM2', 'TP-R0S', Rev: 3, Len: 52
+40:993  0:000    4. 8FF53000: 'UEFI', 'TP-R0S', Rev: 1, Len: 66
+40:993  0:000    5. 8FFF1000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12451
+40:993  0:000    6. 8FFF0000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+40:993  0:000    7. 8FFEE000: 'HPET', 'TP-R0S', Rev: 1, Len: 56
+40:993  0:000    8. 8FFED000: 'APIC', 'TP-R0S', Rev: 3, Len: 300
+40:993  0:000    9. 8FFEC000: 'MCFG', 'TP-R0S', Rev: 1, Len: 60
+40:993  0:000    10. 8FFEB000: 'ECDT', 'TP-R0S', Rev: 1, Len: 83
+40:993  0:000    11. 8FFC2000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7186
+40:993  0:000    12. 8FFC0000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5804
+40:993  0:000    13. 8FFBF000: 'BOOT', 'TP-R0S', Rev: 1, Len: 40
+40:993  0:000    14. 8FFBE000: 'BATB', 'TP-R0S', Rev: 2, Len: 74
+40:993  0:000    15. 8FFBC000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+40:993  0:000    16. 8FFBB000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+40:993  0:000    17. 8FFB9000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 4406
+40:993  0:000    18. 8FFB8000: 'LPIT', 'TP-R0S', Rev: 1, Len: 148
+40:993  0:000    19. 8FFB7000: 'WSMT', 'TP-R0S', Rev: 1, Len: 40
+40:993  0:000    20. 8FFB5000: 'SSDT', 'RVPRRtd3', Rev: 2, Len: 5400
+40:993  0:000    21. 8FFFD000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+40:993  0:000    22. 8FFB3000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237
+40:993  0:000    23. 8FFB2000: 'DBGP', 'TP-R0S', Rev: 1, Len: 52
+40:993  0:000    24. 8FFB1000: 'DBG2', 'TP-R0S', Rev: 0, Len: 84
+40:993  0:000    25. 8FFB0000: 'MSDM', 'TP-R0S', Rev: 3, Len: 85
+40:993  0:000    26. 8FFAF000: 'DMAR', 'TP-R0S', Rev: 1, Len: 168
+40:993  0:000    27. 8FFAE000: 'ASF!', 'TP-R0S', Rev: 32, Len: 160
+40:993  0:000    28. 8FFAD000: 'FPDT', 'TP-R0S', Rev: 1, Len: 68
+40:993  0:000    29. 8FF3A000: 'UEFI', 'TP-R0S', Rev: 1, Len: 318
+40:993  0:000  Found UEFI Acpi 1.0 RSDP at 8FFFE000
+40:993  0:000  Printing ACPI tables from RSDP 8FFFE000 ...
+40:993  0:000   8FFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+40:993  0:000    (Rsdt: 8FFB4000)
+40:993  0:000    8FFB4000: 'RSDT', 'TP-R0S', Rev: 1, Len: 156
+40:993  0:000    Tables in Rsdt: 30
+40:993  0:000    0. 8FFEF000: 'FACP', 'TP-R0S', Rev: 5, Len: 244
+40:993  0:000        (Dsdt: 8FFC4000, Facs: 8FF3D000, XDsdt: 8FFC4000, XFacs: 0)
+40:993  0:000        8FFC4000: 'DSDT', 'SKL', Rev: 2, Len: 158082
+40:997  0:004        8FF3D000: 'FACS', Ver: 2, Len: 64
+40:997  0:000    1. 8FFF7000: 'SSDT', 'DptfTabl', Rev: 2, Len: 24331
+40:997  0:000    2. 8FFF6000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 987
+40:997  0:000    3. 8FFF5000: 'TPM2', 'TP-R0S', Rev: 3, Len: 52
+40:997  0:000    4. 8FF53000: 'UEFI', 'TP-R0S', Rev: 1, Len: 66
+40:997  0:000    5. 8FFF1000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12451
+40:997  0:000    6. 8FFF0000: 'SSDT', 'PerfTune', Rev: 2, Len: 1478
+40:997  0:000    7. 8FFEE000: 'HPET', 'TP-R0S', Rev: 1, Len: 56
+40:997  0:000    8. 8FFED000: 'APIC', 'TP-R0S', Rev: 3, Len: 300
+40:997  0:000    9. 8FFEC000: 'MCFG', 'TP-R0S', Rev: 1, Len: 60
+40:997  0:000    10. 8FFEB000: 'ECDT', 'TP-R0S', Rev: 1, Len: 83
+40:997  0:000    11. 8FFC2000: 'SSDT', 'RVP7Rtd3', Rev: 2, Len: 7186
+40:997  0:000    12. 8FFC0000: 'SSDT', 'ProjSsdt', Rev: 2, Len: 5804
+40:997  0:000    13. 8FFBF000: 'BOOT', 'TP-R0S', Rev: 1, Len: 40
+40:997  0:000    14. 8FFBE000: 'BATB', 'TP-R0S', Rev: 2, Len: 74
+40:997  0:000    15. 8FFBC000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+40:997  0:000    16. 8FFBB000: 'SSDT', 'CtdpB', Rev: 2, Len: 1389
+40:997  0:000    17. 8FFB9000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 4406
+40:997  0:000    18. 8FFB8000: 'LPIT', 'TP-R0S', Rev: 1, Len: 148
+40:997  0:000    19. 8FFB7000: 'WSMT', 'TP-R0S', Rev: 1, Len: 40
+40:997  0:000    20. 8FFB5000: 'SSDT', 'RVPRRtd3', Rev: 2, Len: 5400
+40:997  0:000    21. 8FFFD000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+40:997  0:000    22. 8FFB3000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1237
+40:997  0:000    23. 8FFB2000: 'DBGP', 'TP-R0S', Rev: 1, Len: 52
+40:997  0:000    24. 8FFB1000: 'DBG2', 'TP-R0S', Rev: 0, Len: 84
+40:997  0:000    25. 8FFB0000: 'MSDM', 'TP-R0S', Rev: 3, Len: 85
+40:997  0:000    26. 8FFAF000: 'DMAR', 'TP-R0S', Rev: 1, Len: 168
+40:997  0:000    27. 8FFAE000: 'ASF!', 'TP-R0S', Rev: 32, Len: 160
+40:997  0:000    28. 8FFAD000: 'FPDT', 'TP-R0S', Rev: 1, Len: 68
+40:997  0:000    29. 8FF3A000: 'UEFI', 'TP-R0S', Rev: 1, Len: 318
