@@ -175,6 +175,13 @@
 			<key>SuspendOverride</key>
 			<false/>
 		</dict>
+		<key>DropTables</key>
+		<array>
+			<dict>
+				<key>Signature</key>
+				<string>DMAR</string>
+			</dict>
+		</array>
 		<key>HaltEnabler</key>
 		<true/>
 		<key>SSDT</key>
@@ -221,10 +228,6 @@
 				<true/>
 			</dict>
 		</dict>
-		<key>SortedOrder</key>
-		<array>
-			<string>SSDT-Vega64-FBName-Iriri.aml</string>
-		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
@@ -664,7 +667,7 @@
 		<key>ScreenResolution</key>
 		<string>3840x2160</string>
 		<key>Theme</key>
-		<string>asus</string>
+		<string>Mojave</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -862,7 +865,7 @@
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<false/>
+		<true/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
@@ -926,7 +929,7 @@
 				<key>Comment</key>
 				<string>Change VRAM 1536 -&gt; 2048 for 0x3e920003</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				AAAAYAAAACAAAACAAAAAAA==
@@ -944,7 +947,7 @@
 				<key>Comment</key>
 				<string>Change VRAM 1536 -&gt; 2048 for 0x3e920000</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				AAAAYIkN/34IAEiJBfx+CA==
@@ -962,7 +965,7 @@
 				<key>Comment</key>
 				<string>10.11+-BT4LE-Handoff-Hotspot-lisai9093</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				SIX/dEdIiwc=
@@ -988,7 +991,7 @@
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
-				<string>10.14</string>
+				<string>10.14.x</string>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
@@ -1155,44 +1158,7 @@
 		<key>Memory</key>
 		<dict>
 			<key>Channels</key>
-			<integer>2</integer>
-			<key>Modules</key>
-			<array>
-				<dict>
-					<key>Frequency</key>
-					<integer>3600</integer>
-					<key>Part</key>
-					<string>7F7F7F7F7F7F7F7F92</string>
-					<key>Serial</key>
-					<string>0000026F</string>
-					<key>Size</key>
-					<integer>8192</integer>
-					<key>Slot</key>
-					<integer>0</integer>
-					<key>Type</key>
-					<string>DDR4</string>
-					<key>Vendor</key>
-					<string>GALAXY</string>
-				</dict>
-				<dict>
-					<key>Frequency</key>
-					<integer>3600</integer>
-					<key>Part</key>
-					<string>7F7F7F7F7F7F7F7F92</string>
-					<key>Serial</key>
-					<string>0000026C</string>
-					<key>Size</key>
-					<integer>8192</integer>
-					<key>Slot</key>
-					<integer>1</integer>
-					<key>Type</key>
-					<string>DDR4</string>
-					<key>Vendor</key>
-					<string>GALAXY</string>
-				</dict>
-			</array>
-			<key>SlotCount</key>
-			<integer>4</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Mobile</key>
 		<false/>
