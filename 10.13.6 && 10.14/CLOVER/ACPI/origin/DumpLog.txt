@@ -1,170 +1,86 @@
-11:550  7:343  Found BIOS RSDP at F05B0
-11:550  0:000  Printing ACPI tables from RSDP F05B0 ...
-11:550  0:000   F05B0: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
-11:550  0:000    (Rsdt: CE0ED028)
-11:550  0:000    CE0ED028: 'RSDT', 'A M I', Rev: 1, Len: 136
-11:550  0:000    Tables in Rsdt: 25
-11:550  0:000    0. CE0ED1B0: 'FACP', 'A M I', Rev: 2, Len: 132
-11:550  0:000        (Dsdt: CE0ED238, Facs: CE49AEC0)
-11:550  0:000        CE0ED238: 'DSDT', 'A M I', Rev: 2, Len: 161478
-11:552  0:001        CE49AEC0: 'FACS', Ver: 0, Len: 64
-11:552  0:000    1. CE114A18: 'APIC', 'A M I', Rev: 3, Len: 244
-11:552  0:000    2. CE114B10: 'FPDT', 'A M I', Rev: 1, Len: 68
-11:552  0:000    3. CE114B58: 'FIDT', 'A M I', Rev: 1, Len: 156
-11:552  0:000    4. CE114BF8: 'MCFG', 'A M I', Rev: 1, Len: 60
-11:552  0:000    5. CE114C38: 'SSDT', 'A M I', Rev: 1, Len: 931
-11:552  0:000    6. CE114FE0: 'SSDT', 'A M I', Rev: 1, Len: 28853
-11:552  0:000    7. CE11C098: 'SSDT', 'A M I', Rev: 2, Len: 12645
-11:552  0:000    8. CE11F200: 'SSDT', 'A M I', Rev: 2, Len: 10051
-11:552  0:000    9. CE121948: 'HPET', 'A M I', Rev: 1, Len: 56
-11:552  0:000    10. CE121980: 'SSDT', 'A M I', Rev: 2, Len: 4522
-11:552  0:000    11. CE122B30: 'SSDT', 'A M I', Rev: 2, Len: 10967
-11:552  0:000    12. CE125608: 'UEFI', 'A M I', Rev: 1, Len: 72
-11:552  0:000    13. CE125650: 'SSDT', 'A M I', Rev: 2, Len: 6062
-11:552  0:000    14. CE126E00: 'LPIT', 'A M I', Rev: 1, Len: 148
-11:552  0:000    15. CE126E98: 'SSDT', 'A M I', Rev: 2, Len: 321
-11:552  0:000    16. CE126FE0: 'SSDT', 'A M I', Rev: 2, Len: 671
-11:552  0:000    17. CE127280: 'SSDT', 'A M I', Rev: 2, Len: 12290
-11:552  0:000    18. CE12A288: 'SSDT', 'A M I', Rev: 2, Len: 1303
-11:552  0:000    19. CE12A7A0: 'SSDT', 'A M I', Rev: 2, Len: 745
-11:552  0:000    20. CE12AA90: 'DBGP', 'A M I', Rev: 1, Len: 52
-11:552  0:000    21. CE12AAC8: 'DBG2', 'A M I', Rev: 0, Len: 84
-11:552  0:000    22. CE12AB20: 'DMAR', 'A M I', Rev: 1, Len: 112
-11:552  0:000    23. CE12AB90: 'BGRT', 'A M I', Rev: 1, Len: 56
-11:552  0:000    24. CE12ABC8: 'WSMT', 'A M I', Rev: 1, Len: 40
-11:552  0:000  Found UEFI Acpi 2.0 RSDP at CE0ED000
-11:552  0:000  Saving ACPI tables from RSDP CE0ED000 to EFI\CLOVER\ACPI\origin ...
-11:552  0:000   CE0ED000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
-11:563  0:011    (Xsdt: CE0ED0B8, Rsdt: CE0ED028)
-11:563  0:000    CE0ED0B8: 'XSDT', 'A M I', Rev: 1, Len: 236 -> XSDT.aml
-11:574  0:010    CE0ED028: 'RSDT', 'A M I', Rev: 1, Len: 136 -> RSDT.aml
-11:589  0:014    Tables in Xsdt: 25
-11:589  0:000    0. CE114900: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
-11:604  0:014        (Dsdt: CE0ED238, Facs: CE49AF00, XDsdt: CE0ED238, XFacs: 0)
-11:604  0:000        CE0ED238: 'DSDT', 'A M I', Rev: 2, Len: 161478 -> DSDT.aml
-11:625  0:020        CE49AF00: 'FACS', Ver: 2, Len: 64 -> FACS.aml
-11:643  0:018    1. CE114A18: 'APIC', 'A M I', Rev: 3, Len: 244 -> APIC.aml
-11:660  0:016    2. CE114B10: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
-11:677  0:016    3. CE114B58: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
-11:694  0:016    4. CE114BF8: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
-11:710  0:016    5. CE114C38: 'SSDT', 'A M I', Rev: 1, Len: 931 -> SSDT-0-A M I.aml
-11:722  0:011    6. CE114FE0: 'SSDT', 'A M I', Rev: 1, Len: 28853 -> SSDT-1-A M I.aml
-11:733  0:011    7. CE11C098: 'SSDT', 'A M I', Rev: 2, Len: 12645 -> SSDT-2-A M I.aml
-11:746  0:012    8. CE11F200: 'SSDT', 'A M I', Rev: 2, Len: 10051 -> SSDT-3-A M I.aml
-11:757  0:011    9. CE121948: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
-11:774  0:016    10. CE121980: 'SSDT', 'A M I', Rev: 2, Len: 4522 -> SSDT-4-A M I.aml
-11:785  0:011    11. CE122B30: 'SSDT', 'A M I', Rev: 2, Len: 10967 -> SSDT-5-A M I.aml
-11:797  0:011    12. CE125608: 'UEFI', 'A M I', Rev: 1, Len: 72 -> UEFI.aml
-11:815  0:018    13. CE125650: 'SSDT', 'A M I', Rev: 2, Len: 6062 -> SSDT-6-A M I.aml (Found hidden SSDT 7 pcs)
-11:827  0:011        * CDFB8098: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1914  53 53 44 54 7A 07 00 00 02 F8 50 6D 52 65 66 00 Internal length = 1914 -> SSDT-x6_0-Cpu0Ist.aml
-11:838  0:011        * CDF69018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 30 50 6D 52 65 66 00 Internal length = 3348 -> SSDT-x6_1-ApIst.aml
-11:849  0:011        * CDF68018: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 17 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x6_2-Cpu0Cst.aml
-11:861  0:011        * CDF6A798: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 99 50 6D 52 65 66 00 Internal length = 778 -> SSDT-x6_3-ApCst.aml
-11:872  0:011        * CDF6A018: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 83 50 6D 52 65 66 00 Internal length = 186 -> SSDT-x6_4-Cpu0Hwp.aml
-11:884  0:011        * CDF6AB98: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 86 50 6D 52 65 66 00 Internal length = 791 -> SSDT-x6_5-ApHwp.aml
-11:895  0:011        * CDF6A118: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 8B 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x6_6-HwpLvt.aml
-11:906  0:011  
-11:906  0:000    14. CE126E00: 'LPIT', 'A M I', Rev: 1, Len: 148 -> LPIT.aml
-11:923  0:016    15. CE126E98: 'SSDT', 'A M I', Rev: 2, Len: 321 -> SSDT-7-A M I.aml
-11:934  0:011    16. CE126FE0: 'SSDT', 'A M I', Rev: 2, Len: 671 -> SSDT-8-A M I.aml
-11:946  0:011    17. CE127280: 'SSDT', 'A M I', Rev: 2, Len: 12290 -> SSDT-9-A M I.aml
-11:957  0:011    18. CE12A288: 'SSDT', 'A M I', Rev: 2, Len: 1303 -> SSDT-10-A M I.aml
-11:969  0:011    19. CE12A7A0: 'SSDT', 'A M I', Rev: 2, Len: 745 -> SSDT-11-A M I.aml
-11:980  0:011    20. CE12AA90: 'DBGP', 'A M I', Rev: 1, Len: 52 -> DBGP.aml
-11:997  0:016    21. CE12AAC8: 'DBG2', 'A M I', Rev: 0, Len: 84 -> DBG2.aml
-12:013  0:016    22. CE12AB20: 'DMAR', 'A M I', Rev: 1, Len: 112 -> DMAR.aml
-12:025  0:011    23. CE12AB90: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
-12:041  0:016    24. CE12ABC8: 'WSMT', 'A M I', Rev: 1, Len: 40 -> WSMT.aml
-12:058  0:016    Tables in Rsdt: 25
-12:058  0:000    0. CE0ED1B0: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
-12:075  0:016        (Dsdt: CE0ED238, Facs: CE49AEC0)
-12:075  0:000        CE0ED238: 'DSDT', 'A M I', Rev: 2, Len: 161478
-12:076  0:001        CE49AEC0: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
-12:093  0:016    1. CE114A18: 'APIC', 'A M I', Rev: 3, Len: 244
-12:093  0:000    2. CE114B10: 'FPDT', 'A M I', Rev: 1, Len: 68
-12:093  0:000    3. CE114B58: 'FIDT', 'A M I', Rev: 1, Len: 156
-12:093  0:000    4. CE114BF8: 'MCFG', 'A M I', Rev: 1, Len: 60
-12:093  0:000    5. CE114C38: 'SSDT', 'A M I', Rev: 1, Len: 931
-12:093  0:000    6. CE114FE0: 'SSDT', 'A M I', Rev: 1, Len: 28853
-12:093  0:000    7. CE11C098: 'SSDT', 'A M I', Rev: 2, Len: 12645
-12:093  0:000    8. CE11F200: 'SSDT', 'A M I', Rev: 2, Len: 10051
-12:093  0:000    9. CE121948: 'HPET', 'A M I', Rev: 1, Len: 56
-12:093  0:000    10. CE121980: 'SSDT', 'A M I', Rev: 2, Len: 4522
-12:093  0:000    11. CE122B30: 'SSDT', 'A M I', Rev: 2, Len: 10967
-12:093  0:000    12. CE125608: 'UEFI', 'A M I', Rev: 1, Len: 72
-12:093  0:000    13. CE125650: 'SSDT', 'A M I', Rev: 2, Len: 6062
-12:093  0:000    14. CE126E00: 'LPIT', 'A M I', Rev: 1, Len: 148
-12:093  0:000    15. CE126E98: 'SSDT', 'A M I', Rev: 2, Len: 321
-12:093  0:000    16. CE126FE0: 'SSDT', 'A M I', Rev: 2, Len: 671
-12:093  0:000    17. CE127280: 'SSDT', 'A M I', Rev: 2, Len: 12290
-12:093  0:000    18. CE12A288: 'SSDT', 'A M I', Rev: 2, Len: 1303
-12:093  0:000    19. CE12A7A0: 'SSDT', 'A M I', Rev: 2, Len: 745
-12:093  0:000    20. CE12AA90: 'DBGP', 'A M I', Rev: 1, Len: 52
-12:093  0:000    21. CE12AAC8: 'DBG2', 'A M I', Rev: 0, Len: 84
-12:093  0:000    22. CE12AB20: 'DMAR', 'A M I', Rev: 1, Len: 112
-12:093  0:000    23. CE12AB90: 'BGRT', 'A M I', Rev: 1, Len: 56
-12:093  0:000    24. CE12ABC8: 'WSMT', 'A M I', Rev: 1, Len: 40
-12:093  0:000  Found UEFI Acpi 1.0 RSDP at CE0ED000
-12:093  0:000  Printing ACPI tables from RSDP CE0ED000 ...
-12:093  0:000   CE0ED000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-12:093  0:000    (Xsdt: CE0ED0B8, Rsdt: CE0ED028)
-12:093  0:000    CE0ED0B8: 'XSDT', 'A M I', Rev: 1, Len: 236
-12:093  0:000    CE0ED028: 'RSDT', 'A M I', Rev: 1, Len: 136
-12:093  0:000    Tables in Xsdt: 25
-12:093  0:000    0. CE114900: 'FACP', 'A M I', Rev: 6, Len: 276
-12:093  0:000        (Dsdt: CE0ED238, Facs: CE49AF00, XDsdt: CE0ED238, XFacs: 0)
-12:093  0:000        CE0ED238: 'DSDT', 'A M I', Rev: 2, Len: 161478
-12:094  0:001        CE49AF00: 'FACS', Ver: 2, Len: 64
-12:094  0:000    1. CE114A18: 'APIC', 'A M I', Rev: 3, Len: 244
-12:094  0:000    2. CE114B10: 'FPDT', 'A M I', Rev: 1, Len: 68
-12:094  0:000    3. CE114B58: 'FIDT', 'A M I', Rev: 1, Len: 156
-12:094  0:000    4. CE114BF8: 'MCFG', 'A M I', Rev: 1, Len: 60
-12:094  0:000    5. CE114C38: 'SSDT', 'A M I', Rev: 1, Len: 931
-12:094  0:000    6. CE114FE0: 'SSDT', 'A M I', Rev: 1, Len: 28853
-12:094  0:000    7. CE11C098: 'SSDT', 'A M I', Rev: 2, Len: 12645
-12:094  0:000    8. CE11F200: 'SSDT', 'A M I', Rev: 2, Len: 10051
-12:094  0:000    9. CE121948: 'HPET', 'A M I', Rev: 1, Len: 56
-12:094  0:000    10. CE121980: 'SSDT', 'A M I', Rev: 2, Len: 4522
-12:094  0:000    11. CE122B30: 'SSDT', 'A M I', Rev: 2, Len: 10967
-12:094  0:000    12. CE125608: 'UEFI', 'A M I', Rev: 1, Len: 72
-12:094  0:000    13. CE125650: 'SSDT', 'A M I', Rev: 2, Len: 6062
-12:094  0:000    14. CE126E00: 'LPIT', 'A M I', Rev: 1, Len: 148
-12:094  0:000    15. CE126E98: 'SSDT', 'A M I', Rev: 2, Len: 321
-12:094  0:000    16. CE126FE0: 'SSDT', 'A M I', Rev: 2, Len: 671
-12:094  0:000    17. CE127280: 'SSDT', 'A M I', Rev: 2, Len: 12290
-12:094  0:000    18. CE12A288: 'SSDT', 'A M I', Rev: 2, Len: 1303
-12:094  0:000    19. CE12A7A0: 'SSDT', 'A M I', Rev: 2, Len: 745
-12:094  0:000    20. CE12AA90: 'DBGP', 'A M I', Rev: 1, Len: 52
-12:094  0:000    21. CE12AAC8: 'DBG2', 'A M I', Rev: 0, Len: 84
-12:094  0:000    22. CE12AB20: 'DMAR', 'A M I', Rev: 1, Len: 112
-12:094  0:000    23. CE12AB90: 'BGRT', 'A M I', Rev: 1, Len: 56
-12:094  0:000    24. CE12ABC8: 'WSMT', 'A M I', Rev: 1, Len: 40
-12:094  0:000    Tables in Rsdt: 25
-12:094  0:000    0. CE0ED1B0: 'FACP', 'A M I', Rev: 2, Len: 132
-12:094  0:000        (Dsdt: CE0ED238, Facs: CE49AEC0)
-12:094  0:000        CE0ED238: 'DSDT', 'A M I', Rev: 2, Len: 161478
-12:096  0:001        CE49AEC0: 'FACS', Ver: 0, Len: 64
-12:096  0:000    1. CE114A18: 'APIC', 'A M I', Rev: 3, Len: 244
-12:096  0:000    2. CE114B10: 'FPDT', 'A M I', Rev: 1, Len: 68
-12:096  0:000    3. CE114B58: 'FIDT', 'A M I', Rev: 1, Len: 156
-12:096  0:000    4. CE114BF8: 'MCFG', 'A M I', Rev: 1, Len: 60
-12:096  0:000    5. CE114C38: 'SSDT', 'A M I', Rev: 1, Len: 931
-12:096  0:000    6. CE114FE0: 'SSDT', 'A M I', Rev: 1, Len: 28853
-12:096  0:000    7. CE11C098: 'SSDT', 'A M I', Rev: 2, Len: 12645
-12:096  0:000    8. CE11F200: 'SSDT', 'A M I', Rev: 2, Len: 10051
-12:096  0:000    9. CE121948: 'HPET', 'A M I', Rev: 1, Len: 56
-12:096  0:000    10. CE121980: 'SSDT', 'A M I', Rev: 2, Len: 4522
-12:096  0:000    11. CE122B30: 'SSDT', 'A M I', Rev: 2, Len: 10967
-12:096  0:000    12. CE125608: 'UEFI', 'A M I', Rev: 1, Len: 72
-12:096  0:000    13. CE125650: 'SSDT', 'A M I', Rev: 2, Len: 6062
-12:096  0:000    14. CE126E00: 'LPIT', 'A M I', Rev: 1, Len: 148
-12:096  0:000    15. CE126E98: 'SSDT', 'A M I', Rev: 2, Len: 321
-12:096  0:000    16. CE126FE0: 'SSDT', 'A M I', Rev: 2, Len: 671
-12:096  0:000    17. CE127280: 'SSDT', 'A M I', Rev: 2, Len: 12290
-12:096  0:000    18. CE12A288: 'SSDT', 'A M I', Rev: 2, Len: 1303
-12:096  0:000    19. CE12A7A0: 'SSDT', 'A M I', Rev: 2, Len: 745
-12:096  0:000    20. CE12AA90: 'DBGP', 'A M I', Rev: 1, Len: 52
-12:096  0:000    21. CE12AAC8: 'DBG2', 'A M I', Rev: 0, Len: 84
-12:096  0:000    22. CE12AB20: 'DMAR', 'A M I', Rev: 1, Len: 112
-12:096  0:000    23. CE12AB90: 'BGRT', 'A M I', Rev: 1, Len: 56
-12:096  0:000    24. CE12ABC8: 'WSMT', 'A M I', Rev: 1, Len: 40
+18:118  17:160  Found UEFI Acpi 2.0 RSDP at 3AFFD014
+18:118  0:000  Saving ACPI tables from RSDP 3AFFD014 to EFI\CLOVER\ACPI\origin ...
+18:118  0:000   3AFFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+18:121  0:002    (Xsdt: 3AFC5188, Rsdt: 3AFC50C4)
+18:121  0:000    3AFC5188: 'XSDT', 'CB-01', Rev: 1, Len: 292 -> XSDT.aml
+18:123  0:001    3AFC50C4: 'RSDT', 'CB-01', Rev: 1, Len: 164 -> RSDT.aml
+18:125  0:001    Tables in Xsdt: 32
+18:125  0:000    0. 3AFEA000: 'FACP', 'CB-01', Rev: 5, Len: 268 -> FACP.aml
+18:126  0:001        (Dsdt: 3AFC9000, Facs: 3AF31000, XDsdt: 3AFC9000, XFacs: 0)
+18:126  0:000        3AFC9000: 'DSDT', 'CB-01', Rev: 2, Len: 116780 -> DSDT.aml
+18:130  0:003        3AF31000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+18:132  0:001    1. 3AFFC000: 'UEFI', 'CB-01', Rev: 1, Len: 566 -> UEFI.aml
+18:134  0:001    2. 3AFFB000: 'UEFI', 'CB-01', Rev: 1, Len: 66 -> UEFI.aml
+18:137  0:002    3. 3AFFA000: 'MSDM', 'CB-01', Rev: 3, Len: 85 -> MSDM.aml
+18:139  0:001    4. 3AFF9000: 'SSDT', 'CB-01', Rev: 2, Len: 1219 -> SSDT-0-CB-01.aml
+18:141  0:001    5. 3AFF8000: 'SSDT', 'CB-01', Rev: 2, Len: 70 -> SSDT-1-CB-01.aml
+18:143  0:002    6. 3AFF7000: 'TPM2', 'CB-01', Rev: 3, Len: 52 -> TPM2.aml
+18:144  0:001    7. 3AFF3000: 'SSDT', 'CB-01', Rev: 2, Len: 12547 -> SSDT-2-CB-01.aml
+18:147  0:002    8. 3AFEF000: 'SSDT', 'CB-01', Rev: 2, Len: 16269 -> SSDT-3-CB-01.aml
+18:149  0:002    9. 3AFEE000: 'ASF!', 'CB-01', Rev: 32, Len: 165 -> ASF!.aml
+18:150  0:001    10. 3AFED000: 'ASPT', 'CB-01', Rev: 7, Len: 52 -> ASPT.aml
+18:153  0:002    11. 3AFEC000: 'BOOT', 'CB-01', Rev: 1, Len: 40 -> BOOT.aml
+18:155  0:002    12. 3AFEB000: 'DBGP', 'CB-01', Rev: 1, Len: 52 -> DBGP.aml
+18:157  0:002    13. 3AFE9000: 'HPET', 'CB-01', Rev: 1, Len: 56 -> HPET.aml
+18:159  0:002    14. 3AFE8000: 'APIC', 'CB-01', Rev: 3, Len: 188 -> APIC.aml
+18:161  0:002    15. 3AFE7000: 'MCFG', 'CB-01', Rev: 1, Len: 60 -> MCFG.aml
+18:163  0:002    16. 3AFE6000: 'SLIC', 'CB-01', Rev: 1, Len: 374 -> SLIC.aml
+18:166  0:002    17. 3AFC8000: 'SSDT', 'CB-01', Rev: 2, Len: 520 -> SSDT-4-CB-01.aml
+18:168  0:002    18. 3AFC7000: 'SSDT', 'CB-01', Rev: 2, Len: 2860 -> SSDT-5-CB-01.aml
+18:177  0:008    19. 3AFC6000: 'LPIT', 'CB-01', Rev: 1, Len: 148 -> LPIT.aml
+18:186  0:008    20. 3AFC4000: 'WSMT', 'CB-01', Rev: 1, Len: 40 -> WSMT.aml
+18:191  0:005    21. 3AFC3000: 'SSDT', 'CB-01', Rev: 2, Len: 671 -> SSDT-6-CB-01.aml
+18:193  0:001    22. 3AFC2000: 'SSDT', 'CB-01', Rev: 1, Len: 838 -> SSDT-7-CB-01.aml
+18:195  0:001    23. 3AFBE000: 'SSDT', 'CB-01', Rev: 2, Len: 12290 -> SSDT-8-CB-01.aml
+18:197  0:002    24. 3AFBD000: 'SSDT', 'CB-01', Rev: 2, Len: 1310 -> SSDT-9-CB-01.aml
+18:199  0:001    25. 3AFBC000: 'DBGP', 'CB-01', Rev: 1, Len: 52 -> DBGP.aml
+18:203  0:003    26. 3AFBB000: 'DBG2', 'CB-01', Rev: 0, Len: 97 -> DBG2.aml
+18:205  0:001    27. 3AFB9000: 'SSDT', 'CB-01', Rev: 2, Len: 4387 -> SSDT-10-CB-01.aml
+18:207  0:002    28. 3AFB8000: 'SSDT', 'CB-01', Rev: 2, Len: 3806 -> SSDT-11-CB-01.aml (Found hidden SSDT 7 pcs)
+18:208  0:001        * 38E3C018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1716  53 53 44 54 B4 06 00 00 02 F4 50 6D 52 65 66 00 Internal length = 1716 -> SSDT-x11_0-Cpu0Ist.aml
+18:211  0:002        * 38E3B018: 'SSDT', 'ApIst', Rev: 2, Len: 1628  53 53 44 54 5C 06 00 00 02 A9 50 6D 52 65 66 00 Internal length = 1628 -> SSDT-x11_1-ApIst.aml
+18:213  0:002        * 38E3B898: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 A9 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x11_2-Cpu0Cst.aml
+18:216  0:002        * 38E3BDD8: 'SSDT', 'ApCst', Rev: 2, Len: 394  53 53 44 54 8A 01 00 00 02 33 50 6D 52 65 66 00 Internal length = 394 -> SSDT-x11_3-ApCst.aml
+18:218  0:002        * 294ADA98: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 277  53 53 44 54 15 01 00 00 02 A8 50 6D 52 65 66 00 Internal length = 277 -> SSDT-x11_4-Cpu0Hwp.aml
+18:220  0:002        * 294AE218: 'SSDT', 'ApHwp', Rev: 2, Len: 407  53 53 44 54 97 01 00 00 02 EB 50 6D 52 65 66 00 Internal length = 407 -> SSDT-x11_5-ApHwp.aml
+18:222  0:002        * 294ADBD8: 'SSDT', 'HwpLvt', Rev: 2, Len: 420  53 53 44 54 A4 01 00 00 02 36 50 6D 52 65 66 00 Internal length = 420 -> SSDT-x11_6-HwpLvt.aml
+18:225  0:002  
+18:225  0:000    29. 3AFB7000: 'DMAR', 'CB-01', Rev: 1, Len: 312 -> DMAR.aml
+18:227  0:002    30. 3AFB6000: 'FPDT', 'CB-01', Rev: 1, Len: 68 -> FPDT.aml
+18:229  0:002    31. 3AFB5000: 'BGRT', 'CB-01', Rev: 1, Len: 56 -> BGRT.aml
+18:231  0:001    Tables in Rsdt: 32
+18:231  0:000    0. 3AFEA000: 'FACP', 'CB-01', Rev: 5, Len: 268
+18:231  0:000        (Dsdt: 3AFC9000, Facs: 3AF31000, XDsdt: 3AFC9000, XFacs: 0)
+18:231  0:000        3AFC9000: 'DSDT', 'CB-01', Rev: 2, Len: 116780
+18:232  0:001        3AF31000: 'FACS', Ver: 2, Len: 64
+18:232  0:000    1. 3AFFC000: 'UEFI', 'CB-01', Rev: 1, Len: 566
+18:232  0:000    2. 3AFFB000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+18:232  0:000    3. 3AFFA000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+18:232  0:000    4. 3AFF9000: 'SSDT', 'CB-01', Rev: 2, Len: 1219
+18:232  0:000    5. 3AFF8000: 'SSDT', 'CB-01', Rev: 2, Len: 70
+18:232  0:000    6. 3AFF7000: 'TPM2', 'CB-01', Rev: 3, Len: 52
+18:232  0:000    7. 3AFF3000: 'SSDT', 'CB-01', Rev: 2, Len: 12547
+18:232  0:000    8. 3AFEF000: 'SSDT', 'CB-01', Rev: 2, Len: 16269
+18:232  0:000    9. 3AFEE000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+18:233  0:000    10. 3AFED000: 'ASPT', 'CB-01', Rev: 7, Len: 52
+18:233  0:000    11. 3AFEC000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+18:233  0:000    12. 3AFEB000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+18:233  0:000    13. 3AFE9000: 'HPET', 'CB-01', Rev: 1, Len: 56
+18:233  0:000    14. 3AFE8000: 'APIC', 'CB-01', Rev: 3, Len: 188
+18:233  0:000    15. 3AFE7000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+18:233  0:000    16. 3AFE6000: 'SLIC', 'CB-01', Rev: 1, Len: 374
+18:233  0:000    17. 3AFC8000: 'SSDT', 'CB-01', Rev: 2, Len: 520
+18:233  0:000    18. 3AFC7000: 'SSDT', 'CB-01', Rev: 2, Len: 2860
+18:233  0:000    19. 3AFC6000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+18:233  0:000    20. 3AFC4000: 'WSMT', 'CB-01', Rev: 1, Len: 40
+18:233  0:000    21. 3AFC3000: 'SSDT', 'CB-01', Rev: 2, Len: 671
+18:233  0:000    22. 3AFC2000: 'SSDT', 'CB-01', Rev: 1, Len: 838
+18:233  0:000    23. 3AFBE000: 'SSDT', 'CB-01', Rev: 2, Len: 12290
+18:233  0:000    24. 3AFBD000: 'SSDT', 'CB-01', Rev: 2, Len: 1310
+18:233  0:000    25. 3AFBC000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+18:233  0:000    26. 3AFBB000: 'DBG2', 'CB-01', Rev: 0, Len: 97
+18:233  0:000    27. 3AFB9000: 'SSDT', 'CB-01', Rev: 2, Len: 4387
+18:233  0:000    28. 3AFB8000: 'SSDT', 'CB-01', Rev: 2, Len: 3806
+18:233  0:000    29. 3AFB7000: 'DMAR', 'CB-01', Rev: 1, Len: 312
+18:233  0:000    30. 3AFB6000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+18:233  0:000    31. 3AFB5000: 'BGRT', 'CB-01', Rev: 1, Len: 56
