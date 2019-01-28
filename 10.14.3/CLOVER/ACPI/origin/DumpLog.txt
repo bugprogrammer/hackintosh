@@ -1,0 +1,132 @@
+3:381  0:136  Found BIOS RSDP at F0000
+3:381  0:000  Printing ACPI tables from RSDP F0000 ...
+3:381  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+3:381  0:000    (Xsdt: C9EAE088, Rsdt: C9EAE028)
+3:381  0:000    C9EAE088: 'XSDT', 'Notebook', Rev: 1, Len: 156
+3:381  0:000    C9EAE028: 'RSDT', 'Notebook', Rev: 1, Len: 96
+3:381  0:000    Tables in Xsdt: 15
+3:381  0:000    0. C9EC10F8: 'FACP', 'Notebook', Rev: 5, Len: 268
+3:381  0:000        (Dsdt: C9EAE240, Facs: CAB23080, XDsdt: C9EAE240, XFacs: 0)
+3:381  0:000        C9EAE240: 'DSDT', 'Notebook', Rev: 2, Len: 77493
+3:382  0:001        CAB23080: 'FACS', Ver: 2, Len: 64
+3:382  0:000    1. C9EC1208: 'APIC', 'Notebook', Rev: 3, Len: 146
+3:382  0:000    2. C9EC12A0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+3:382  0:000    3. C9EC12E8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+3:382  0:000    4. C9EC13B0: 'SSDT', 'zpodd', Rev: 1, Len: 413
+3:382  0:000    5. C9EC1550: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:382  0:000    6. C9EC1A90: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:382  0:000    7. C9EC2568: 'MCFG', 'Notebook', Rev: 1, Len: 60
+3:382  0:000    8. C9EC25A8: 'HPET', 'Notebook', Rev: 1, Len: 56
+3:382  0:000    9. C9EC25E0: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+3:382  0:000    10. C9EC2878: 'SSDT', 'SaSsdt', Rev: 1, Len: 17142
+3:382  0:000    11. C9EC6B70: 'SSDT', 'SgPeg', Rev: 1, Len: 5785
+3:382  0:000    12. C9EC8210: 'DMAR', 'HSW', Rev: 1, Len: 184
+3:382  0:000    13. C9EC82C8: 'SSDT', 'OptTabl', Rev: 1, Len: 6627
+3:382  0:000    14. C9AF1E18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+3:382  0:000    Tables in Rsdt: 15
+3:382  0:000    0. C9EAE130: 'FACP', 'Notebook', Rev: 2, Len: 268
+3:382  0:000        (Dsdt: C9EAE240, Facs: CAB23040)
+3:382  0:000        C9EAE240: 'DSDT', 'Notebook', Rev: 2, Len: 77493
+3:384  0:001        CAB23040: 'FACS', Ver: 0, Len: 64
+3:384  0:000    1. C9EC1208: 'APIC', 'Notebook', Rev: 3, Len: 146
+3:384  0:000    2. C9EC12A0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+3:384  0:000    3. C9EC12E8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+3:384  0:000    4. C9EC13B0: 'SSDT', 'zpodd', Rev: 1, Len: 413
+3:384  0:000    5. C9EC1550: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:384  0:000    6. C9EC1A90: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:384  0:000    7. C9EC2568: 'MCFG', 'Notebook', Rev: 1, Len: 60
+3:384  0:000    8. C9EC25A8: 'HPET', 'Notebook', Rev: 1, Len: 56
+3:384  0:000    9. C9EC25E0: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+3:384  0:000    10. C9EC2878: 'SSDT', 'SaSsdt', Rev: 1, Len: 17142
+3:384  0:000    11. C9EC6B70: 'SSDT', 'SgPeg', Rev: 1, Len: 5785
+3:384  0:000    12. C9EC8210: 'DMAR', 'HSW', Rev: 1, Len: 184
+3:384  0:000    13. C9EC82C8: 'SSDT', 'OptTabl', Rev: 1, Len: 6627
+3:384  0:000    14. C9AF1E18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+3:384  0:000  Found UEFI Acpi 2.0 RSDP at C9EAE000
+3:384  0:000  Saving ACPI tables from RSDP C9EAE000 to EFI\CLOVER\ACPI\origin ...
+3:384  0:000   C9EAE000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+3:384  0:000    (Xsdt: C9EAE088, Rsdt: C9EAE028)
+3:384  0:000    C9EAE088: 'XSDT', 'Notebook', Rev: 1, Len: 156
+3:384  0:000    C9EAE028: 'RSDT', 'Notebook', Rev: 1, Len: 96
+3:384  0:000    Tables in Xsdt: 15
+3:384  0:000    0. C9EC10F8: 'FACP', 'Notebook', Rev: 5, Len: 268
+3:384  0:000        (Dsdt: C9EAE240, Facs: CAB23080, XDsdt: C9EAE240, XFacs: 0)
+3:384  0:000        C9EAE240: 'DSDT', 'Notebook', Rev: 2, Len: 77493
+3:385  0:001        CAB23080: 'FACS', Ver: 2, Len: 64
+3:385  0:000    1. C9EC1208: 'APIC', 'Notebook', Rev: 3, Len: 146
+3:385  0:000    2. C9EC12A0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+3:385  0:000    3. C9EC12E8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+3:385  0:000    4. C9EC13B0: 'SSDT', 'zpodd', Rev: 1, Len: 413
+3:385  0:000    5. C9EC1550: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:385  0:000    6. C9EC1A90: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:385  0:000    7. C9EC2568: 'MCFG', 'Notebook', Rev: 1, Len: 60
+3:385  0:000    8. C9EC25A8: 'HPET', 'Notebook', Rev: 1, Len: 56
+3:385  0:000    9. C9EC25E0: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+3:385  0:000    10. C9EC2878: 'SSDT', 'SaSsdt', Rev: 1, Len: 17142
+3:385  0:000    11. C9EC6B70: 'SSDT', 'SgPeg', Rev: 1, Len: 5785
+3:385  0:000    12. C9EC8210: 'DMAR', 'HSW', Rev: 1, Len: 184
+3:385  0:000    13. C9EC82C8: 'SSDT', 'OptTabl', Rev: 1, Len: 6627
+3:385  0:000    14. C9AF1E18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+3:385  0:000    Tables in Rsdt: 15
+3:385  0:000    0. C9EAE130: 'FACP', 'Notebook', Rev: 2, Len: 268
+3:385  0:000        (Dsdt: C9EAE240, Facs: CAB23040)
+3:385  0:000        C9EAE240: 'DSDT', 'Notebook', Rev: 2, Len: 77493
+3:386  0:001        CAB23040: 'FACS', Ver: 0, Len: 64
+3:386  0:000    1. C9EC1208: 'APIC', 'Notebook', Rev: 3, Len: 146
+3:386  0:000    2. C9EC12A0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+3:386  0:000    3. C9EC12E8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+3:386  0:000    4. C9EC13B0: 'SSDT', 'zpodd', Rev: 1, Len: 413
+3:386  0:000    5. C9EC1550: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:386  0:000    6. C9EC1A90: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:386  0:000    7. C9EC2568: 'MCFG', 'Notebook', Rev: 1, Len: 60
+3:386  0:000    8. C9EC25A8: 'HPET', 'Notebook', Rev: 1, Len: 56
+3:386  0:000    9. C9EC25E0: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+3:386  0:000    10. C9EC2878: 'SSDT', 'SaSsdt', Rev: 1, Len: 17142
+3:386  0:000    11. C9EC6B70: 'SSDT', 'SgPeg', Rev: 1, Len: 5785
+3:386  0:000    12. C9EC8210: 'DMAR', 'HSW', Rev: 1, Len: 184
+3:386  0:000    13. C9EC82C8: 'SSDT', 'OptTabl', Rev: 1, Len: 6627
+3:386  0:000    14. C9AF1E18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+3:386  0:000  Found UEFI Acpi 1.0 RSDP at C9EAE000
+3:386  0:000  Printing ACPI tables from RSDP C9EAE000 ...
+3:386  0:000   C9EAE000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+3:386  0:000    (Xsdt: C9EAE088, Rsdt: C9EAE028)
+3:386  0:000    C9EAE088: 'XSDT', 'Notebook', Rev: 1, Len: 156
+3:386  0:000    C9EAE028: 'RSDT', 'Notebook', Rev: 1, Len: 96
+3:386  0:000    Tables in Xsdt: 15
+3:386  0:000    0. C9EC10F8: 'FACP', 'Notebook', Rev: 5, Len: 268
+3:386  0:000        (Dsdt: C9EAE240, Facs: CAB23080, XDsdt: C9EAE240, XFacs: 0)
+3:386  0:000        C9EAE240: 'DSDT', 'Notebook', Rev: 2, Len: 77493
+3:387  0:001        CAB23080: 'FACS', Ver: 2, Len: 64
+3:387  0:000    1. C9EC1208: 'APIC', 'Notebook', Rev: 3, Len: 146
+3:387  0:000    2. C9EC12A0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+3:387  0:000    3. C9EC12E8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+3:387  0:000    4. C9EC13B0: 'SSDT', 'zpodd', Rev: 1, Len: 413
+3:387  0:000    5. C9EC1550: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:387  0:000    6. C9EC1A90: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:387  0:000    7. C9EC2568: 'MCFG', 'Notebook', Rev: 1, Len: 60
+3:387  0:000    8. C9EC25A8: 'HPET', 'Notebook', Rev: 1, Len: 56
+3:387  0:000    9. C9EC25E0: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+3:387  0:000    10. C9EC2878: 'SSDT', 'SaSsdt', Rev: 1, Len: 17142
+3:387  0:000    11. C9EC6B70: 'SSDT', 'SgPeg', Rev: 1, Len: 5785
+3:387  0:000    12. C9EC8210: 'DMAR', 'HSW', Rev: 1, Len: 184
+3:387  0:000    13. C9EC82C8: 'SSDT', 'OptTabl', Rev: 1, Len: 6627
+3:387  0:000    14. C9AF1E18: 'MSDM', 'Notebook', Rev: 3, Len: 85
+3:387  0:000    Tables in Rsdt: 15
+3:387  0:000    0. C9EAE130: 'FACP', 'Notebook', Rev: 2, Len: 268
+3:387  0:000        (Dsdt: C9EAE240, Facs: CAB23040)
+3:387  0:000        C9EAE240: 'DSDT', 'Notebook', Rev: 2, Len: 77493
+3:389  0:001        CAB23040: 'FACS', Ver: 0, Len: 64
+3:389  0:000    1. C9EC1208: 'APIC', 'Notebook', Rev: 3, Len: 146
+3:389  0:000    2. C9EC12A0: 'FPDT', 'Notebook', Rev: 1, Len: 68
+3:389  0:000    3. C9EC12E8: 'ECDT', 'Notebook', Rev: 1, Len: 193
+3:389  0:000    4. C9EC13B0: 'SSDT', 'zpodd', Rev: 1, Len: 413
+3:389  0:000    5. C9EC1550: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:389  0:000    6. C9EC1A90: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:389  0:000    7. C9EC2568: 'MCFG', 'Notebook', Rev: 1, Len: 60
+3:389  0:000    8. C9EC25A8: 'HPET', 'Notebook', Rev: 1, Len: 56
+3:389  0:000    9. C9EC25E0: 'SSDT', 'SataTabl', Rev: 1, Len: 664
+3:389  0:000    10. C9EC2878: 'SSDT', 'SaSsdt', Rev: 1, Len: 17142
+3:389  0:000    11. C9EC6B70: 'SSDT', 'SgPeg', Rev: 1, Len: 5785
+3:389  0:000    12. C9EC8210: 'DMAR', 'HSW', Rev: 1, Len: 184
+3:389  0:000    13. C9EC82C8: 'SSDT', 'OptTabl', Rev: 1, Len: 6627
+3:389  0:000    14. C9AF1E18: 'MSDM', 'Notebook', Rev: 3, Len: 85
