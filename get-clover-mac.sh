@@ -3,7 +3,7 @@
 clear
 echo '脚本开始执行。'
 
-echo '\n正在获取Bugprogrammer的Hackintosh仓库，请稍后:'
+echo -e '\n正在获取Bugprogrammer的Hackintosh仓库，请稍后:'
 echo '-------------------------------------'
 
 cd ~
@@ -13,7 +13,7 @@ git clone https://github.com/bugprogrammer/hackintosh.git ${dir}
 
 cd ${dir}
 
-echo '\nBugprogrammer亲测过的Hackintosh机型Clover下载,此脚本支持如下机型:'
+echo -e '\nBugprogrammer亲测过的Hackintosh机型Clover下载,此脚本支持如下机型:'
 echo '-------------------------------------'
 git branch -r | grep -v 'master' | sed 's/origin\///g' | awk '{print NR,$0}'
 type=($(git branch -r | grep -v 'master' | sed 's/origin\///g'))
