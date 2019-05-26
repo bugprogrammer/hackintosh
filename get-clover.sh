@@ -9,12 +9,12 @@ if [ ${os} == 'Linux' ]; then
 	echo '检测到您的操作系统是Linux(只支持ubuntu)'
     if ! [ -x "$(command -v git)" ]; then
   		echo '尚未安装git,将自动安装'
-  		sudo apt-get install git
+  		sudo apt-get -y install git
 	fi
 
 	if ! [ -x "$(command -v nautilus)" ]; then
   		echo '尚未安装nautilus,将自动安装'
-  		sudo apt-get install nautilus
+  		sudo apt-get -y install nautilus
 	fi
 elif [ ${os} == 'Darwin' ]; then
 	echo '您的操作系统是macOS'
