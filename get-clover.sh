@@ -18,6 +18,10 @@ if [ ${os} == 'Linux' ]; then
 	fi
 elif [ ${os} == 'Darwin' ]; then
 	echo '您的操作系统是macOS'
+	xcode-select --install
+	echo "\033[32m请注意您的电脑是否出现弹窗，如出现弹窗，请点击最右侧的安装按钮，安装结束后按回车继续。如果未出现弹窗直接按回车继续: \033[0m"
+	#echo '请注意您的电脑是否出现弹窗，如出现弹窗，请点击最右侧的安装按钮，安装结束后按回车继续。如果未出现弹窗直接按回车继续:'
+	read n1
 fi
 echo -e '\n正在获取Bugprogrammer的Hackintosh仓库，请稍后:'
 echo '-------------------------------------'
