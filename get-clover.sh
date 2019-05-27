@@ -22,16 +22,17 @@ elif [ $os == 'Darwin' ]; then
 	echo -e "\033[32m请注意您的电脑是否出现弹窗，如出现弹窗，请点击最右侧的安装按钮，安装结束后按回车继续。如果未出现弹窗直接按回车继续: \033[0m"
 	#echo '请注意您的电脑是否出现弹窗，如出现弹窗，请点击最右侧的安装按钮，安装结束后按回车继续。如果未出现弹窗直接按回车继续:'
 	read n1
+elif [ $(echo $os | grep 'NT') ]; then
+	echo '您使用的操作系统是Windows'
 fi
 echo -e '\n正在获取Bugprogrammer的Hackintosh仓库，请稍后:'
 echo '-------------------------------------'
 
 cd ~
-#dir='hackintosh_'${date '+%Y%m%d%H%M%S'}
 dir=hackintosh_$(date +%Y%m%d%H%M%S)
-git clone https://github.com/bugprogrammer/hackintosh.git ${dir}
+git clone https://github.com/bugprogrammer/hackintosh.git $dir
 
-cd ${dir}
+cd $dir
 
 echo -e '\nBugprogrammer亲测过的Hackintosh机型Clover下载,此脚本支持如下机型:'
 echo '-------------------------------------'
@@ -49,4 +50,6 @@ if [ $os == 'Linux' ]; then
 	nautilus .
 elif [ $os == 'Darwin' ]; then
 	open .
+elif [ $(echo $os | grep 'NT') ]; then
+	C:/Windows/explorer .
 fi
