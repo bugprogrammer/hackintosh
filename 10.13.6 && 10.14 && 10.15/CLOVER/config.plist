@@ -122,7 +122,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>darkwake=0 alcid=11 slide=0</string>
+		<string>darkwake=0 slide=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -151,242 +151,14 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
-		<key>Arbitrary</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>NVME</string>
-				<key>CustomProperties</key>
-				<array>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>AAPL,slot-name</string>
-						<key>Value</key>
-						<string>Slot-2</string>
-					</dict>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>model</string>
-						<key>Value</key>
-						<string>NVME SSD Controller SM951</string>
-					</dict>
-				</array>
-				<key>PciAddr</key>
-				<string>07:00.00</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>NVME</string>
-				<key>CustomProperties</key>
-				<array>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>AAPL,slot-name</string>
-						<key>Value</key>
-						<string>Slot-1</string>
-					</dict>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>model</string>
-						<key>Value</key>
-						<string>NVME SSD Controller SM961</string>
-					</dict>
-				</array>
-				<key>PciAddr</key>
-				<string>04:00.00</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Network</string>
-				<key>CustomProperties</key>
-				<array>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>AAPL,slot-name</string>
-						<key>Value</key>
-						<string>Built-in</string>
-					</dict>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>model</string>
-						<key>Value</key>
-						<string>Ethernet Connection I219-V</string>
-					</dict>
-				</array>
-				<key>PciAddr</key>
-				<string>00:1F.06</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>WIFI</string>
-				<key>CustomProperties</key>
-				<array>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>AAPL,slot-name</string>
-						<key>Value</key>
-						<string>Slot-1</string>
-					</dict>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>model</string>
-						<key>Value</key>
-						<string>BCM4352 802.11ac Wireless Network Adapter</string>
-					</dict>
-				</array>
-				<key>PciAddr</key>
-				<string>06:00.00</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SATA</string>
-				<key>CustomProperties</key>
-				<array>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>AAPL,slot-name</string>
-						<key>Value</key>
-						<string>Built-in</string>
-					</dict>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>model</string>
-						<key>Value</key>
-						<string>Cannon Lake PCH SATA AHCI Controller</string>
-					</dict>
-				</array>
-				<key>PciAddr</key>
-				<string>00:17.00</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SMBus</string>
-				<key>CustomProperties</key>
-				<array>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>AAPL,slot-name</string>
-						<key>Value</key>
-						<string>Built-in</string>
-					</dict>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>model</string>
-						<key>Value</key>
-						<string>Cannon Lake PCH SMBus Controller</string>
-					</dict>
-				</array>
-				<key>PciAddr</key>
-				<string>00:1F.04</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB</string>
-				<key>CustomProperties</key>
-				<array>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>AAPL,slot-name</string>
-						<key>Value</key>
-						<string>Built-in</string>
-					</dict>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>model</string>
-						<key>Value</key>
-						<string>Cannon Lake PCH USB 3.1 xHCI Host Controller</string>
-					</dict>
-				</array>
-				<key>PciAddr</key>
-				<string>00:14.00</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>HDMI Audio</string>
-				<key>CustomProperties</key>
-				<array>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>AAPL,slot-name</string>
-						<key>Value</key>
-						<string>Slot-1</string>
-					</dict>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>model</string>
-						<key>Value</key>
-						<string>Vega 10 HDMI Audio</string>
-					</dict>
-				</array>
-				<key>PciAddr</key>
-				<string>03:00.01</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Audio</string>
-				<key>CustomProperties</key>
-				<array>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>AAPL,slot-name</string>
-						<key>Value</key>
-						<string>Built-in</string>
-					</dict>
-					<dict>
-						<key>Disabled</key>
-						<false/>
-						<key>Key</key>
-						<string>model</string>
-						<key>Value</key>
-						<string>Cannon Lake PCH cAVS(Realtek ALC1220)</string>
-					</dict>
-				</array>
-				<key>PciAddr</key>
-				<string>00:1F.03</string>
-			</dict>
-		</array>
 		<key>Audio</key>
 		<dict>
 			<key>AFGLowPowerState</key>
 			<false/>
 			<key>Inject</key>
-			<string>No</string>
+			<integer>11</integer>
 			<key>ResetHDA</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>ForceHPET</key>
 		<false/>
@@ -508,7 +280,7 @@
 		<key>PatchVBios</key>
 		<false/>
 		<key>RadeonDeInit</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
