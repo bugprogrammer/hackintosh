@@ -55,39 +55,6 @@
 			<key>idVendor</key>
 			<integer>2652</integer>
 		</dict>
-		<key>AGPM</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AGPM</string>
-			<key>IOClass</key>
-			<string>AGPMController</string>
-			<key>IONameMatch</key>
-			<string>AGPMEnabler</string>
-			<key>IOProviderClass</key>
-			<string>IOPlatformPluginDevice</string>
-			<key>Machines</key>
-			<dict>
-				<key>Mac-7BA5B2D9E42DDD94</key>
-				<dict>
-					<key>Vendor1002Device687f</key>
-					<dict>
-						<key>AGDCEnabled</key>
-						<integer>1</integer>
-						<key>Heuristic</key>
-						<dict>
-							<key>ID</key>
-							<integer>-1</integer>
-						</dict>
-						<key>control-id</key>
-						<integer>17</integer>
-						<key>max-power-state</key>
-						<integer>15</integer>
-						<key>min-power-state</key>
-						<integer>0</integer>
-					</dict>
-				</dict>
-			</dict>
-		</dict>
 		<key>AppleLPC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -352,7 +319,7 @@
 			<key>alt_handler_id</key>
 			<integer>46</integer>
 		</dict>
-		<key>iMacPro1,1-XHC</key>
+		<key>iMac19,1-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
@@ -508,7 +475,7 @@
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMacPro1,1</string>
+			<string>iMac19,1</string>
 		</dict>
 	</dict>
 	<key>OSBundleCompatibleVersion</key>
