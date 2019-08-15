@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17G3025</string>
+	<string>17G7024</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.5.1</string>
+	<string>3.5.2</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,7 +25,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>3.5.1</string>
+	<string>3.5.2</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -33,9 +33,9 @@
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>18B71</string>
+	<string>15E60</string>
 	<key>DTSDKName</key>
-	<string>macosx10.14</string>
+	<string>macosx10.11</string>
 	<key>DTXcode</key>
 	<string>1010</string>
 	<key>DTXcodeBuild</key>
@@ -318,164 +318,6 @@
 			<integer>9390</integer>
 			<key>alt_handler_id</key>
 			<integer>46</integer>
-		</dict>
-		<key>iMac19,1-XHC</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
-			<key>IOClass</key>
-			<string>AppleUSBHostMergeProperties</string>
-			<key>IONameMatch</key>
-			<string>XHC</string>
-			<key>IOProviderClass</key>
-			<string>AppleUSBXHCIPCI</string>
-			<key>IOProviderMergeProperties</key>
-			<dict>
-				<key>port-count</key>
-				<data>
-				GAAAAA==
-				</data>
-				<key>ports</key>
-				<dict>
-					<key>HS03</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						AwAAAA==
-						</data>
-					</dict>
-					<key>HS04</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						BAAAAA==
-						</data>
-					</dict>
-					<key>HS05</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						BQAAAA==
-						</data>
-					</dict>
-					<key>HS06</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						BgAAAA==
-						</data>
-					</dict>
-					<key>HS08</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						CAAAAA==
-						</data>
-					</dict>
-					<key>HS09</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						CQAAAA==
-						</data>
-					</dict>
-					<key>HS11</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						CwAAAA==
-						</data>
-					</dict>
-					<key>HS14</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>port</key>
-						<data>
-						DgAAAA==
-						</data>
-					</dict>
-					<key>SS01</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						EQAAAA==
-						</data>
-					</dict>
-					<key>SS02</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						EgAAAA==
-						</data>
-					</dict>
-					<key>SS03</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						EwAAAA==
-						</data>
-					</dict>
-					<key>SS04</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						FAAAAA==
-						</data>
-					</dict>
-					<key>SS05</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						FQAAAA==
-						</data>
-					</dict>
-					<key>SS06</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						FgAAAA==
-						</data>
-					</dict>
-					<key>SS08</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						GAAAAA==
-						</data>
-					</dict>
-				</dict>
-			</dict>
-			<key>model</key>
-			<string>iMac19,1</string>
 		</dict>
 	</dict>
 	<key>OSBundleCompatibleVersion</key>

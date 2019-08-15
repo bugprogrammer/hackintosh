@@ -219,7 +219,7 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
@@ -229,8 +229,6 @@
 		<false/>
 		<key>RadeonDeInit</key>
 		<false/>
-		<key>ig-platform-id</key>
-		<string>0x3E980003</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -419,35 +417,35 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>02/18/2019</string>
+		<string>04/22/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>IM191.88Z.F000.B00.1902181222</string>
+		<string>IMP11.88Z.F000.B00.1904222000</string>
 		<key>Board-ID</key>
-		<string>Mac-AA95B1DDAB278B95</string>
+		<string>Mac-7BA5B2D9E42DDD94</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C029101084NLNV9AD</string>
+		<string>C02739303QXJG36CB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
 		<string>1.0</string>
 		<key>ChassisAssetTag</key>
-		<string>iMac-Aluminum</string>
+		<string>iMacPro-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>220.250.368.0.0</string>
+		<string>220.260.170.0.0</string>
 		<key>Family</key>
-		<string>iMac</string>
+		<string>iMac Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE137</string>
+		<string>0xFD8FF53F</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
+		<string>0xFF9FFF3F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
@@ -455,13 +453,13 @@
 		<key>Mobile</key>
 		<false/>
 		<key>PlatformFeature</key>
-		<string>0x00</string>
+		<string>0xFFFF</string>
 		<key>ProductName</key>
-		<string>iMac19,1</string>
+		<string>iMacPro1,1</string>
 		<key>SerialNumber</key>
-		<string>C02YD0Q6JV3Q</string>
+		<string>C02VG0GMHX87</string>
 		<key>SmUUID</key>
-		<string>EE2078D6-F2B3-47DD-AC0C-6CFBD59162F4</string>
+		<string>659AA779-D51F-4DEC-98E5-0A77B7C28829</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
