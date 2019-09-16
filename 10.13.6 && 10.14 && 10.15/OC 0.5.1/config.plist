@@ -179,19 +179,19 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
-			<false/>
+			<true/>
 			<key>DevirtualiseMmio</key>
 			<false/>
 			<key>DisableSingleUser</key>
 			<false/>
 			<key>DisableVariableWrite</key>
-			<false/>
+			<true/>
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
 			<false/>
 			<key>EnableWriteUnprotector</key>
-			<false/>
+			<true/>
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>ProtectCsmRegion</key>
@@ -621,7 +621,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string> darkwake=0</string>
+				<string> darkwake=0 -v slide=0</string>
 				<key>csr-active-config</key>
 				<data>
 				5wMAAA==
@@ -826,10 +826,10 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>OsxAptioFix2Drv-free2000.efi</string>
+			<string>OsxAptioFixDrv.efi</string>
 			<string>VirtualSmc.efi</string>
 			<string>ApfsDriverLoader.efi</string>
-			<string>VBoxHfs.efi</string>
+			<string>HfsPlus.efi</string>
 		</array>
 		<key>Protocols</key>
 		<dict>
@@ -853,7 +853,7 @@
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
-			<false/>
+			<true/>
 			<key>ReleaseUsbOwnership</key>
 			<false/>
 			<key>RequestBootVarRouting</key>
