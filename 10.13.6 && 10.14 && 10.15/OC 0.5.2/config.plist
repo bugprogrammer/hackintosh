@@ -719,7 +719,6 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>AppleGenericInput.efi</string>
 			<string>OsxAptioFixDrv.efi</string>
 			<string>VirtualSmc.efi</string>
 			<string>ApfsDriverLoader.efi</string>
