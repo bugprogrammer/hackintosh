@@ -70,8 +70,15 @@ function hackintosh_Build()
     else
         if [[ $liluPlugins =~ ${buildArray[$1]%,*} ]]; then
             if [ ! -e *.kext ]; then
-                wget https://downloads.bugprogrammer.me/Lilu-1.4.1-DEBUG.zip
-                unzip Lilu-1.4.1-DEBUG.zip
+                if [ ! -e ~/Desktop/$dir/Sources/Lilu/build/Debug/Lilu.kext ]; then
+                    pushd ~/Desktop/$dir/Sources
+                    git clone https://github.com/acidanthera/Lilu.git && cd Lilu
+                    xcodebuild -configuration Debug
+                    popd
+                    cp -Rf ~/Desktop/$dir/Sources/Lilu/build/Debug/Lilu.kext .
+                else
+                    cp -Rf ~/Desktop/$dir/Sources/Lilu/build/Debug/Lilu.kext .
+                fi
             fi
         fi
         xcodebuild -configuration Release
