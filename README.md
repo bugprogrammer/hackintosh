@@ -4,6 +4,6 @@
 
 添加自动获取Clover脚本，支持macOS，Windows，Ubuntu。使用请执行get-clover.sh。
 
-添加Hackintosh引导器以及常用插件自动编译脚本Hackintosh_build.sh，支持OpenCore，AppleSupportPkg以及常用Kexts。需要在macOS下执行。
+添加Hackintosh引导器以及常用插件自动编译脚本Hackintosh_build.sh，支持OpenCore，Clover,AppleSupportPkg以及常用Kexts。需要在macOS下执行。
 
 更多教程文章，技术分享请访问博主博客<b><font color=#0099ff>www.bugprogrammer.me</font></b>
