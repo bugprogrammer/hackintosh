@@ -24,7 +24,8 @@ mkdir -p $dir/Release
 mkdir -p $dir/Sources
 cd $dir/Sources
 
-buildArray=( 
+buildArray=(
+     'Clover,https://github.com/CloverHackyColor/CloverBootloader.git' 
      'OpenCore,https://github.com/acidanthera/OpenCorePkg.git'
      'AppleSupportPkg,https://github.com/acidanthera/AppleSupportPkg.git' 
      'Lilu,https://github.com/acidanthera/Lilu.git'
@@ -63,7 +64,11 @@ function hackintosh_Build()
     mkdir -p ../Release/${buildArray[$1]%,*}/Debug
     git clone ${buildArray[$1]##*,} ${buildArray[$1]%,*}
     cd ${buildArray[$1]%,*}
-    if [[ $bootLoader =~ ${buildArray[$1]%,*} ]]; then
+    if [ ${buildArray[$1]%,*} == 'Clover' ]; then
+        ./buildme
+        cp -Rf CloverPackage/sym/* ../../Release/${buildArray[$1]%,*}/Release
+        rm -rf ~/Desktop/$dir/Release/${buildArray[$1]%,*}/Debug
+    elif [[ $bootLoader =~ ${buildArray[$1]%,*} ]]; then
         ./macbuild.tool
         cp Binaries/RELEASE/*.zip ../../Release/${buildArray[$1]%,*}/Release
         cp Binaries/DEBUG/*.zip ../../Release/${buildArray[$1]%,*}/Debug
