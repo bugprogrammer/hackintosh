@@ -27,6 +27,7 @@ cd $dir/Sources
 buildArray=(
      'Clover,https://github.com/CloverHackyColor/CloverBootloader.git' 
      'OpenCore,https://github.com/acidanthera/OpenCorePkg.git'
+     'n-d-k-OpenCore,https://github.com/n-d-k/OpenCorePkg.git'
      'AppleSupportPkg,https://github.com/acidanthera/AppleSupportPkg.git' 
      'Lilu,https://github.com/acidanthera/Lilu.git'
      'AirportBrcmFixup,https://github.com/acidanthera/AirportBrcmFixup.git'
@@ -48,7 +49,7 @@ buildArray=(
 liluPlugins='AirportBrcmFixup AppleALC ATH9KFixup BT4LEContinuityFixup CPUFriend HibernationFixup 
             NoTouchID RTCMemoryFixup SystemProfilerMemoryFixup VirtualSMC acidanthera_WhateverGreen bugprogrammer_WhateverGreen'
 
-bootLoader='OpenCore AppleSupportPkg'
+bootLoader='OpenCore n-d-k-OpenCore AppleSupportPkg'
 
 
 for(( i=0;i<${#buildArray[@]};i++)) do
@@ -69,7 +70,7 @@ function hackintosh_Build()
         cp -Rf CloverPackage/sym/* ../../Release/${buildArray[$1]%,*}/Release
         rm -rf ~/Desktop/$dir/Release/${buildArray[$1]%,*}/Debug
     elif [[ $bootLoader =~ ${buildArray[$1]%,*} ]]; then
-        ./macbuild.tool
+        ./*.tool
         cp Binaries/RELEASE/*.zip ../../Release/${buildArray[$1]%,*}/Release
         cp Binaries/DEBUG/*.zip ../../Release/${buildArray[$1]%,*}/Debug
     else
