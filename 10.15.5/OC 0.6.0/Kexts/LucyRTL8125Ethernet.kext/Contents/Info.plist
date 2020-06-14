@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>19F101</string>
+	<string>19G46c</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -49,15 +49,15 @@
 			<key>Driver Parameters</key>
 			<dict>
 				<key>disableASPM</key>
-				<false/>
+				<true/>
 				<key>enableCSO6</key>
-				<false/>
+				<true/>
 				<key>enableEEE</key>
-				<false/>
+				<true/>
 				<key>enableTSO4</key>
-				<false/>
+				<true/>
 				<key>enableTSO6</key>
-				<false/>
+				<true/>
 				<key>fallbackMAC</key>
 				<string></string>
 				<key>intrMitigate</key>
